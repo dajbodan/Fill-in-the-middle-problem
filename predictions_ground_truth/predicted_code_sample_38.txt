@@ -1,0 +1,5 @@
+ std :: queue<tReadOneByte> & readOutputQueue, int & startRead)
+{
+  unsigned char temp;
+  const int lengthBytes = 4;
+  unsigned char mask = 0x1 <<

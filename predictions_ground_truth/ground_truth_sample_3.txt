@@ -1,0 +1,6 @@
+(
+            std :: map<tUTF8, std :: vector<tReadOneByte>> & map,
+            BinTreeCompression * root,
+            std :: vector<tReadOneByte> & insertVal,
+            const int lengthByteInBits = 8
+          )

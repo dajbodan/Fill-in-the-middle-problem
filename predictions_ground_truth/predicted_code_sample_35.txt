@@ -1,0 +1,8 @@
+
+        if(state == readingUTF8) {
+          tree = createVal(GRAPH :: DEFAULT);
+        }
+        break;
+      case readingUTF8:
+        byte &= ~(0b1 << readDirection);
+        byte |= (UALN_STATUS[UALN_STATUS.size()-1][index]) << readDirection;

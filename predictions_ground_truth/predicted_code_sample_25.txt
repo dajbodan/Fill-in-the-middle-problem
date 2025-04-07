@@ -1,0 +1,8 @@
+ std::cout << "Char : ";
+  for(int i = 0; i < 8; i++)
+    std::cout << vecCompres[i].frequency << "\n";espace std;
+
+int main () {
+
+	HuffmanCode huffmanCode;
+	string fileName ("schtroumpfsnake.txt");

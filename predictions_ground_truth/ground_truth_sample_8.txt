@@ -1,0 +1,1 @@
+! isLastChunk(actualReadElement->oneByte[0], actualReadElement->readIndex)

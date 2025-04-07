@@ -1,0 +1,6 @@
+struct tReadOneByte
+{
+  char oneByte[1];
+  int readIndex;
+  tReadOneByte() : readIndex(0) { oneByte[0] = '\0'; }
+}

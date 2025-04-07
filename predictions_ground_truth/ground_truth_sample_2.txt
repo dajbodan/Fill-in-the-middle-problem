@@ -1,0 +1,4 @@
+enum Bytes
+  {
+      UNKNOWN, ONE, TWO, THREE, FOUR
+  }

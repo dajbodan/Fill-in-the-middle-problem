@@ -1,0 +1,2 @@
+(node->typeNode == GRAPH :: LEAF)
+    return node

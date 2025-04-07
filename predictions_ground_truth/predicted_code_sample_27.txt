@@ -1,0 +1,19 @@
+),
+string2ltstr_aconst(name, -1),
+inst_grow highlight_every_element(code3, -1, str1_ltstr)
+) ok nondet(ok)
+
+precondition(
+(c_size, 0 <= c_size, row, col, string1_ltstr, hlb(string1_ltstr))
+)
+
+-- minimize: hlb(string1_ltstr)
+
+example
+("Java", 5, 3, "java", hlb_of_string1("Java"))
+end
+```
+
+It should be a little more aberley 
+--minimize gray(string1)
+and so onusername_0: @username_2 I concur with that. The aberley syntax is cleaner. We won't have to deal with this nightmare once we are in the right CPA library. @username_1 as I said before, can you add this to the list of 3 momentum topics?username_1: done @username_0<issue_closed

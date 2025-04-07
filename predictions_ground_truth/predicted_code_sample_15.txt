@@ -1,0 +1,10 @@
+        if((readFourBytes[0] & 0xE0) == 0xC0 && ( (readFourBytes[1] & 0xC0) == 0x80) )
+  {
+    copyBytes((char *)utf8.data, readFourBytes, utf8.lengthData = 2 );
+    
+    return utf8;
+  }
+  
+  if((readFourBytes[0] & 0xF0) == 0xD0)
+  {
+    makeByte

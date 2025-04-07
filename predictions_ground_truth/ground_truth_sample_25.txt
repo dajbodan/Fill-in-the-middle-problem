@@ -1,0 +1,7 @@
+for(tNodeCompression & temp : vecCompres)
+  {
+    std :: cout << "Char : ";
+    for(int i = 0; i < temp.utf8.lengthData; i++)
+        std :: cout << temp.utf8.data[i];
+    std :: cout << " , Freq : " << temp.frequency << "\n";  
+  }

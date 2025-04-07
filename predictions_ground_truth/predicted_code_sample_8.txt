@@ -1,0 +1,5 @@
+i)
+    {
+      if(isLastChunk(*actualReadElement,i))
+        {
+          return

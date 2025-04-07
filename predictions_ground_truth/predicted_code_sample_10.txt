@@ -1,0 +1,3 @@
+ typeNode == GRAPH :: LEAF)
+    return node->utf8;
+  tReadOne

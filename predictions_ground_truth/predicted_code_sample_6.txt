@@ -1,0 +1,4 @@
+readingINNODE)
+    {
+      tree -> insertValue(GRAPH :: INNODE);
+    }

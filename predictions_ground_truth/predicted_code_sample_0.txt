@@ -1,0 +1,9 @@
+struct tReadOneByte
+{
+  char oneByte[8];
+  unsigned char readIndex = 0;
+};
+
+struct BinTreeCompression;
+
+typedef struct tNodeCompressionComparattor :

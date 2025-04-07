@@ -1,0 +1,5 @@
+void copyBytes(char * d, unsigned char * s, int length)
+{
+  for(int i = 0; i < length; i++)
+    d[i] = s[i];
+}

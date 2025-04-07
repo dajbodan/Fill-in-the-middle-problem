@@ -1,0 +1,16 @@
+switch(state)
+        {
+          case readingINNODE :
+            
+            tree -> insertValue(GRAPH :: INNODE);
+            break;
+          case readingLIST : 
+           // tree -> insertValue(GRAPH :: LEAF);
+            readByteQueue.front().readIndex = i + 1; // next Index
+            if(readByteQueue.front().readIndex == 8)
+              byte = changeReadDirection(i, readByteQueue);
+            state = readingUTF8;
+            return tree;
+          default :
+            break;
+        }

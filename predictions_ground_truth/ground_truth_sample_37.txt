@@ -1,0 +1,8 @@
+void deallocateCompressedTree(BinTreeCompression * root)
+{
+  if(root->left != nullptr)
+    deallocateCompressedTree(root->left);
+  if(root->right != nullptr)
+    deallocateCompressedTree(root->right);
+  delete root;
+}

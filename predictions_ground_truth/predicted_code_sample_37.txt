@@ -1,0 +1,11 @@
+void deallocateCompressedTree(BinTreeCompression *node) 
+{
+  if(node == nullptr)
+    return ;
+  deallocateCompressedTree(node->left);
+  deallocateCompressedTree(node->right);
+  delete node;
+}
+
+bool readChunk
+(
