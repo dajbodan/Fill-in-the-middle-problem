@@ -1,7 +1,9 @@
 # Fill‑in‑the‑Middle Code‑Completion Benchmark
 
 **Author:** Daniel Dajbov
+
 **Project:** Personal C++ Huffman encoder project, evaluated with *StarCoder2‑3B*
+
 **Goal:** Build a small, *explainable* test bed (≈40 prompts) that measures how well modern code‑completion models can fill in the gap a programmer is about to write.
 
 ---
