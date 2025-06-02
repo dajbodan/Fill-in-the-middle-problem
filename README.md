@@ -31,7 +31,7 @@ Fill-in-the-middle-problem-main/
 ├── predictions_ground_truth/
 │   ├── ground_truth_sample_XX.txt  # canonical middle snippets
 │   └── predicted_code_sample_XX.txt# model completions
-└── README.md                       # ← you are here
+└── README.md                     
 ```
 
 ## 3  Running the Pipeline
